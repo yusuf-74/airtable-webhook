@@ -28,7 +28,7 @@ DEBUG = config('DEBUG', default=True, cast=bool)
 
 ALLOWED_HOSTS = ['api','localhost']
 
-CSRF_TRUSTED_ORIGINS = ['http://api','http://localhost', 'http://ec2-54-147-132-209.compute-1.amazonaws.com', 'http://54.147.132.209']
+CSRF_TRUSTED_ORIGINS = ['http://api','http://localhost', 'http://ec2-54-147-132-209.compute-1.amazonaws.com', 'http://54.147.132.209', 'https://airtable.rightshero.com', 'http://airtable.rightshero.com']
 # Application definition
 
 INSTALLED_APPS = [
